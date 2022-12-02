@@ -1,0 +1,22 @@
+syntax ="proto3";
+
+package tiki.common.entities;
+
+option go_package = "github.com/tuancamtbtx/genproto/go/services;services";
+option java_package = "vn.qn.common.entities";
+option java_multiple_files = true;
+option java_outer_classname = "AuthServiceProto";
+
+service AuthService {
+    rpc Login (AuthServiceLoginRequest) returns (AuthServiceLoginResponse){}
+    
+}
+message AuthServiceLoginRequest {
+    string email = 1;
+    string password = 2;
+}
+message AuthServiceLoginResponse {
+    bool status = 1;
+    string message = 2;
+    string token = 3;
+}
