@@ -26,6 +26,69 @@
       "compilerOptions": {
         "tsConfigPath": "apps/auth-service/tsconfig.app.json"
       }
+    },
+    "libs": {
+      "type": "library",
+      "root": "libs/libs",
+      "entryFile": "index",
+      "sourceRoot": "libs/libs/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/libs/tsconfig.lib.json"
+      }
+    },
+    "product-service": {
+      "type": "application",
+      "root": "apps/product-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/product-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/product-service/tsconfig.app.json"
+      }
+    },
+    "student-service": {
+      "type": "application",
+      "root": "apps/student-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/student-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/student-service/tsconfig.app.json"
+      }
+    },
+    "teacher-service": {
+      "type": "application",
+      "root": "apps/teacher-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/teacher-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/teacher-service/tsconfig.app.json"
+      }
+    },
+    "course-service": {
+      "type": "application",
+      "root": "apps/course-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/course-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/course-service/tsconfig.app.json"
+      }
+    },
+    "accountant-service": {
+      "type": "application",
+      "root": "apps/accountant-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/accountant-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/accountant-service/tsconfig.app.json"
+      }
+    },
+    "gateway-service": {
+      "type": "application",
+      "root": "apps/gateway-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/gateway-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/gateway-service/tsconfig.app.json"
+      }
     }
   }
 }
